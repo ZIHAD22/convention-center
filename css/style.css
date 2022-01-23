@@ -31,9 +31,20 @@ section {
 .p-bg-color {
   background-color: var(--p-bg-color);
 }
+.p-badge {
+  right: 483px;
+  top: 827px;
+}
+/* mobile view responsive */
 @media only screen and (max-width: 688px) {
+  /* slider css */
   .silder-text {
     width: 100% !important;
     padding: 15px 0px;
+  }
+  /* our package section css */
+  .p-badge {
+    right: 20px;
+    top: 1904px;
   }
 }
