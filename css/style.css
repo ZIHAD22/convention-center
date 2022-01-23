@@ -7,7 +7,30 @@ font-family: 'Manrope', sans-serif;
 font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
-
+/* common css */
+section {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+:root {
+  --p-text-color: #231d4f;
+  --p-btn: #f496d13b;
+  --p-icon-bg: #5243c270;
+  --p-bg-color: #3f87f5;
+}
+/* package section custom css */
+.p-text {
+  color: var(--p-text-color);
+}
+.p-btn {
+  background-color: var(--p-btn);
+}
+.p-icon-bg {
+  background-color: var(--p-icon-bg);
+}
+.p-bg-color {
+  background-color: var(--p-bg-color);
+}
 @media only screen and (max-width: 688px) {
   .silder-text {
     width: 100% !important;
