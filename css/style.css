@@ -47,4 +47,11 @@ section {
     right: 20px;
     top: 1904px;
   }
+  /* question section */
+  .orderF {
+    order: 0;
+  }
+  .orderS {
+    order: 1;
+  }
 }
