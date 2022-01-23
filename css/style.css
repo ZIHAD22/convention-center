@@ -17,6 +17,7 @@ section {
   --p-btn: #f496d13b;
   --p-icon-bg: #5243c270;
   --p-bg-color: #3f87f5;
+  --footer-bg: #0b0d17;
 }
 /* package section custom css */
 .p-text {
@@ -34,6 +35,13 @@ section {
 .p-badge {
   right: 483px;
   top: 827px;
+}
+/* footer css */
+footer {
+  background-color: var(--footer-bg);
+}
+small {
+  font-size: 10px;
 }
 /* mobile view responsive */
 @media only screen and (max-width: 688px) {
@@ -53,5 +61,12 @@ section {
   }
   .orderS {
     order: 1;
+  }
+  .copy-align {
+    text-align: center;
+  }
+  .copy-text {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
   }
 }
