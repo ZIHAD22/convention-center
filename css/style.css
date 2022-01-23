@@ -8,10 +8,9 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-/* Slider section css */
-.title {
-  font-size: 4.5rem;
-}
-.text {
-  font-size: 1.5rem;
+@media only screen and (max-width: 688px) {
+  .silder-text {
+    width: 100% !important;
+    padding: 15px 0px;
+  }
 }
