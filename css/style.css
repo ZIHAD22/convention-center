@@ -33,7 +33,7 @@ section {
   background-color: var(--p-bg-color);
 }
 .p-badge {
-  right: 483px;
+  left: 730px;
 }
 /* why section css */
 .ceo {
@@ -58,7 +58,7 @@ small {
   }
   /* our package section css */
   .p-badge {
-    right: 20px;
+    left: 300px;
   }
   /* question section */
   .orderF {
@@ -73,5 +73,28 @@ small {
   .copy-text {
     margin-left: 0 !important;
     padding-left: 0 !important;
+  }
+}
+
+/* Tablat responsive */
+@media only screen and (min-width: 689px) and (max-width: 992px) {
+  /* question section */
+  .orderF {
+    order: 0;
+    display: flex;
+    justify-content: center;
+  }
+  .orderS {
+    order: 1;
+  }
+  /*  */
+  .highlight-right {
+    display: flex;
+  }
+}
+
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .p-badge {
+    left: 495px;
   }
 }
