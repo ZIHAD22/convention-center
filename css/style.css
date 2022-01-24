@@ -34,7 +34,13 @@ section {
 }
 .p-badge {
   right: 483px;
-  top: 827px;
+}
+/* why section css */
+.ceo {
+  margin-bottom: -7px;
+}
+.why-had {
+  font-size: 55px;
 }
 /* footer css */
 footer {
@@ -53,7 +59,6 @@ small {
   /* our package section css */
   .p-badge {
     right: 20px;
-    top: 1904px;
   }
   /* question section */
   .orderF {
