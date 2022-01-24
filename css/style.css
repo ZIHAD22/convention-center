@@ -84,6 +84,12 @@ small {
   .highlight-right {
     display: flex;
   }
+  /* footer section */
+  .copy-align {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 @media only screen and (min-width: 993px) and (max-width: 1349px) {
